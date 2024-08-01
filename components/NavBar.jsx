@@ -4,16 +4,14 @@ const NavBar = () => {
     
   return (
     <>
-    <div className="bg-sky-600 mb-4 p-2 h-10 ">
+    <div className="bg-sky-600 mb-4 p-2 h-10 flex justify-between items-center mx-auto ">
+        <h1 className='font-bold font-mono'>TheNavBar</h1>
       
-        <ul className="flex flex-row-reverse   gap-5 ">
-            <button>Sign Out</button>
-            <button>Account</button>
+        <ul className="space-x-5">
             <button>Cart</button>
             <button>Home</button>
-            <h1>TheNavBar</h1>
-
-
+            <button>Account</button>
+            <button>Sign Out</button>
         </ul>
         
         
