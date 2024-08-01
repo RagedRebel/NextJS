@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 
-const NavBar = () => {
+const Footer = () => {
     
   return (
     <>
-    <div className="bg-sky-600 mb-4 p-2 h-10 flex justify-between items-center mx-auto ">
-        <h1 className='font-bold font-mono'>TheNavBar</h1>
+    <div className="bg-sky-600  p-2 h-10 absolute bottom-0 flex justify-between items-center place-content-end w-full">
+        <h1 className='font-bold font-mono'>TheFooter</h1>
       
         <ul className="space-x-5">
             <Link href="/cart">
@@ -28,4 +28,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Footer
