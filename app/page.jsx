@@ -1,8 +1,10 @@
 import React from 'react'
+import Button from '@components/Button'
 
 const page = () => {
   return (
   <>
+  <Button/>
   <h1 className="flex justify-center items-center font-mono text-xl border rounded-md mx-auto h-10 mt-5 w-fit p-5 hover:underline">Reuben</h1>
   <p className="flex justify-center items-center hover:text-red-500 mt-5 ">
     Not a fullstack developer (yet)
