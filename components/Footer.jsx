@@ -15,7 +15,7 @@ const Footer = () => {
             <Link href="/acc">
             <button>Account</button>
             </Link>
-            <Link href="/login">
+            <Link href="/login" prefetch={true}>
             <button>Login</button>
             </Link>
             
