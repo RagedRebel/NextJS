@@ -6,7 +6,7 @@ import Button from '@components/My_Button'
 const card = ({product}) => {
   
   return (
-  <div className="border-2 bg-zinc-300 border-slate-100 rounded-md h-20 p-2 flex justify-between items-center m-2 hover:border-sky-600 ">
+  <div className="border-2 bg-zinc-300 border-slate-100 rounded-md h-20 p-2 flex justify-between items-center m-2 hover:border-sky-600 w-11/12">
     <div className='flex justify-center items-center'>
     <Image
       src={product.img}

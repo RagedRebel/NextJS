@@ -28,7 +28,8 @@
     const home = () => {
 
     return (
-        <div>
+        <div className=' flex flex-col justify-center items-center'>
+            <h1 className='font-semibold m-2 text-2xl font-serif'>OUR PRODUCTS</h1>
             {products.map((product)=>(
             <Card product={product}/>
             ))}
