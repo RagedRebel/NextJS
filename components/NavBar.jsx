@@ -19,6 +19,9 @@ const NavBar = () => {
     </div>
       
         <ul className="space-x-5">
+            <Link href="/home">
+            <button>Home</button>
+            </Link>
             <Link href="/cart">
             <button>Cart</button>
             </Link>
