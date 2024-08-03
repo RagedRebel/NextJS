@@ -3,11 +3,21 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <h1 className='flex justify-center items-center p-5'>LOGIN PAGE</h1>
-    <p className="flex justify-center items-center ">users can login or create an account at this page</p>
-    <a href="/acc" target="_self">
-    <button className='flex justify-center items-center m-auto mt-5 p-2 bg-cyan-600 border'>Login</button>
+    <div className='flex flex-col justify-center items-center '>
+    <h1 className=' text-3xl m-5'>WELCOME</h1>
+    <label  className=" text-sm font-mono mt-10">
+        Username
+      </label>
+        <input type="text" name="Username" className="block w-64 rounded-md  py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 mt-2 mb-4"/>
+        <label  className=" text-sm font-mono">
+        Password
+      </label>
+        <input type="password" name="Password" className="block w-64 rounded-md  py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 mt-2"/>
+   
+    <a href="/home" target="_self">
+    <button className=' m-auto mt-5 p-2 bg-cyan-600 border hover:bg-cyan-900'>Login</button>
     </a>
+    </div>
     </>
   )
 }
